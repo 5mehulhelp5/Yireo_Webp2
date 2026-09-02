@@ -1,0 +1,11 @@
+{
+    "module_name": "Yireo_Webp2",
+    "composer_name": "yireo/magento2-webp2",
+    "sequence": [
+        "Yireo_NextGenImages",
+        "Yireo_CspUtilities",
+        "Magento_Backend",
+        "Magento_Config",
+        "Magento_Store"
+    ]
+}
