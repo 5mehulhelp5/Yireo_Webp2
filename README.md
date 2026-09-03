@@ -1,4 +1,12 @@
 # Magento 2 module for WebP
+
+<!-- badges.specs.start -->
+![Magento version](https://img.shields.io/badge/Magento-2.4.6%20%7C%202.4.9-orange)
+![PHP version](https://img.shields.io/badge/PHP-8.2%E2%80%938.5-777BB4)
+![License](https://img.shields.io/badge/License-OSL--3.0-blue)
+![Latest Version](https://img.shields.io/packagist/v/yireo/magento2-webp2)
+<!-- badges.specs.end -->
+
 <img src="https://img.shields.io/packagist/dt/yireo/magento2-webp2"/> <img src="https://img.shields.io/packagist/v/yireo/magento2-webp2"/> <img src="https://img.shields.io/github/languages/top/yireo/Yireo_Webp2"/> <img src="https://img.shields.io/github/last-commit/yireo/Yireo_Webp2" /> <img src="https://img.shields.io/github/sponsors/yireo"/> <img src="https://img.shields.io/badge/Hyva_Themes-Supported-3df0af.svg?longCache=true" /> <img src="https://img.shields.io/twitter/follow/yireo?style=social" />
 
 **This module adds WebP support to Magento 2.**
@@ -176,3 +184,13 @@ If some images are converted but others are not, please supply the following det
 - The output of the command `bin/magento next-gen-images:test-uri $URL` where `$URL` is the URL to the original image (JPG or PNG)
 - The output of the command `bin/magento next-gen-images:convert $PATH` where `$PATH` is the absolute path to the original image (JPG or PNG)
 - Whether or not you are using a CDN for serving images.
+
+## Current status
+
+<!-- badges.test.start -->
+![Static Tests](https://img.shields.io/github/actions/workflow/status/yireo/Yireo_Webp2/static-tests.yml?label=static-tests)
+![Unit Tests](https://img.shields.io/github/actions/workflow/status/yireo/Yireo_Webp2/unit-tests.yml?label=unit-tests)
+![Integration Tests](https://img.shields.io/github/actions/workflow/status/yireo/Yireo_Webp2/integration-tests.yml?label=integration-tests)
+![Playwright](https://img.shields.io/github/actions/workflow/status/yireo/Yireo_Webp2/playwright.yml?label=playwright)
+![DI Compilation](https://img.shields.io/github/actions/workflow/status/yireo/Yireo_Webp2/compile.yml?label=compile)
+<!-- badges.test.end -->
